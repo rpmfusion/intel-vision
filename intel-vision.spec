@@ -2,7 +2,7 @@
 
 Name:           intel-vision
 Summary:        Metadata package for Intel vision drivers
-Version:        2025112.WW46.3_25_ptl_pv
+Version:        26WW19.4_NVL
 Release:        3%{?dist}
 License:        GPL-2.0-or-later
 
@@ -28,6 +28,9 @@ Intel LJCA USB driver, adding LNL GPIO PID (INTC10B5) support
 
 
 %changelog
+* Fri Jun 26 2026 Pierre PINON <pierre@pinon1.fr> - 26WW19.4_NVL
+- Update to 26WW19.4_NVL
+
 * Tue Dec 30 2025 Kate Hsuan <hpa@redhat.com> - 2025112.WW46.3_25_ptl_pv-3
 - Update kernel version dependency
 - Update dependency
