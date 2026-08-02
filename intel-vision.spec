@@ -3,7 +3,7 @@
 Name:           intel-vision
 Summary:        Metadata package for Intel vision drivers
 Version:        2025112.WW46.3_25_ptl_pv
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPL-2.0-or-later
 
 URL:            https://github.com/intel/vision-drivers
@@ -28,6 +28,9 @@ Intel LJCA USB driver, adding LNL GPIO PID (INTC10B5) support
 
 
 %changelog
+* Sun Aug 02 2026 RPM Fusion Release Engineering <leigh123linux@rpmfusion.org> - 2025112.WW46.3_25_ptl_pv-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_45_Mass_Rebuild
+
 * Tue Dec 30 2025 Kate Hsuan <hpa@redhat.com> - 2025112.WW46.3_25_ptl_pv-3
 - Update kernel version dependency
 - Update dependency
